@@ -80,7 +80,7 @@ class RetailCrmController extends Controller
 //        $order->weight        = 1000;
 //        $order->shipmentStore = 'main12';
 //        $order->shipmentDate  = (new DateTime())->add(new DateInterval('P7D'));
-        $order->customerComment = '';
+        $order->customerComment = 'https://github.com/yurzig/superposuda/blob/main/RetailCrmController';
         $order->customFields = [
             "prim" => 'тестовое задание',
         ];
